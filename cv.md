@@ -1,6 +1,6 @@
 ---
 title: "CV"
-permalink: /CV/
+permalink: /cv/
 layout: single
 author_profile: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Research"
 permalink: /research/
-layout: default
+layout: single
+author_profile: true
 ---

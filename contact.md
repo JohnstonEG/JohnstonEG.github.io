@@ -1,5 +1,6 @@
 ---
 title: "Contact"
-permalink: /Contact/
-layout: default
+permalink: /contact/
+layout: single
+author_profile: true
 ---

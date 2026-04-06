@@ -25,3 +25,5 @@ defaults:
 plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
+readme_index:
+  enabled: false

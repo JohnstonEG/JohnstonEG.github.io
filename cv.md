@@ -1,5 +1,6 @@
 ---
 title: "CV"
 permalink: /CV/
-layout: default
+layout: single
+author_profile: true
 ---

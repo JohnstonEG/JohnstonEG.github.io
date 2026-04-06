@@ -1,5 +1,4 @@
 ---
-title: "index"
-permalink: /index/
-layout: default
+title: "Home"
+permalink: /
 ---

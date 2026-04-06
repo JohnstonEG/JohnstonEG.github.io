@@ -1,3 +1,24 @@
-theme: minima
-title: Ethan Johnston
-description: Bookmark this to keep an eye on my project updates!
+remote_theme: mmistakes/minimal-mistakes
+title: "Ethan Johnston"
+description: "Bookmark this to keep an eye on my project updates!"
+author:
+  name: "Ethan Johnston"
+  avatar: "/assets/images/headshot.jpg"
+  bio: "M.S. Economics candidate at Illinois State University. Applied microeconomist studying digital markets, labor displacement, and betting market efficiency."
+  location: "Bloomington-Normal, IL"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/JohnstonEG"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:egjohn3@ilstu.edu"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/ethan-johnston-65b075243"
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true

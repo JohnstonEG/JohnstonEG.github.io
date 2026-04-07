@@ -28,3 +28,5 @@ plugins:
   - jekyll-remote-theme
 readme_index:
   enabled: false
+atom_feed:
+  hide: true

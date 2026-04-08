@@ -16,7 +16,7 @@ Undergraduate course covering descriptive statistics, probability, and hypothesi
 
 ## Teaching Assistant
 
-**Applied Calculus**
-Illinois State University, Department of Mathematics
+**MAT 121: Applied Calculus**
+Illinois State University, Fall 2025
 
 Held labs, graded assignments, and supported lectures covering differentiation, integration, and optimization with applications to business and economics.

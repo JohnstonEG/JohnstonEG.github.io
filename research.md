@@ -26,4 +26,10 @@ This paper investigates whether the repeal of PASPA generated spillover effects 
 
 **Service Quality and Digital Piracy: Evidence from Denuvo DRM**
 
+This paper estimates the effect of anti-piracy DRM on piracy demand using a leave-one-out publisher Denuvo adoption rate as an instrument with publisher fixed effects. The preferred cross-genre IV specification finds that DRM increases active piracy demand by approximately 91%, with a null effect on piracy supply, consistent with scene group behavior driven by prestige rather than consumer demand.
+
+---
+
 **Displacement and Task Composition: A Macroeconomic Perspective**
+
+This paper extends Jaimovich and Siu (2020) using a Bartik shift-share local projections IV approach on CPS data spanning 1976 to 2026. Using state-level industry employment shares mapped to CES supersectors as instruments, I document routine task content falling at displacement with approximately 62% reversion by horizon 5.

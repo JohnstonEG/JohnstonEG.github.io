@@ -5,7 +5,7 @@ author_profile: true
 permalink: /research/
 ---
 
-## Working Papers
+## Research Papers
 
 **Displacement and Task Reallocation: Evidence from the PSID**
 with Ali Yousuf (Illinois State University)

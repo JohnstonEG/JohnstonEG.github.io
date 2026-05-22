@@ -5,10 +5,12 @@ author_profile: true
 permalink: /
 ---
 
-I am a Master's student in Quantitative Economics at Illinois State University, expected to graduate in December 2026. My research interests lie in applied microeconomics, with a focus on labor economics and industrial organization.
+I am a Master’s student in Quantitative Economics at Illinois State University with interests in applied econometrics, market dynamics, and quantitative systems research.
 
-My current work examines how institutional shocks reshape markets and labor outcomes. I study the effects of job displacement on workers' task composition, how service quality influences piracy in digital markets, and how regulatory changes affect efficiency in understudied markets like sports betting. Across these projects, I use causal inference methods, including difference-in-differences, instrumental variables, and local projections, to identify how individuals and firms respond to changing incentives.
+My work combines causal inference, large-scale data construction, and computational analysis to study how markets and individuals respond to institutional and technological change. Recent projects include labor displacement and task reallocation, digital piracy and service quality in software markets, and quantitative modeling of sports betting markets using millions of observations across international bookmakers.
 
-Following Graduation, I plan to pursue opportunities in economic research. 
+I frequently work with large panel datasets and build end-to-end research pipelines using Python, R, and statistical modeling techniques including difference-in-differences, instrumental variables, event studies, and local projections.
 
-I also enjoy poetry and writing.
+I am currently seeking opportunities in applied economic research, quantitative analytics, and related fields.
+
+Outside of research, I also write poetry.

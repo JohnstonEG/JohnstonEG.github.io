@@ -14,11 +14,7 @@ permalink: /cv/
 </iframe>
 
 [Download Resume (PDF)](/assets/cv/JohnstonEthan_Resume.pdf){: .btn .btn--primary}
-
-<br><br>
-
 ---
-
 ## Academic CV
 
 <iframe 

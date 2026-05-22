@@ -1,19 +1,19 @@
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
 title: "Ethan Johnston"
-description: "Applied microeconomist studying labor markets, digital industries, and market design"
+description: "Applied economics, causal inference, and quantitative analysis of labor and digital markets."
 author:
   name: "Ethan Johnston"
   avatar: "/assets/images/headshot.JPG"
-  bio: "M.S. Economics candidate at Illinois State University. Applied microeconomist studying digital markets, labor displacement, and industrial organization."
-  location: "Bloomington-Normal, IL"
+  bio: "Quantitative economics researcher focused on labor markets, digital industries, causal inference, and computational data systems."
+  location: "Houston, TX and Bloomington-Normal, IL"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/JohnstonEG"
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:egjohn3@ilstu.edu"
+      url: "mailto:johnston.g.ethan@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/ethan-johnston-65b075243"

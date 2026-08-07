@@ -5,12 +5,16 @@ author_profile: true
 permalink: /teaching/
 ---
 
-## Instructor
+## Instructor of Record
 
 **ECO 138: Economic Reasoning Using Statistics**
-Illinois State University, Spring 2026
+Illinois State University — Spring 2026, Fall 2026 (two sections)
 
-Undergraduate course covering descriptive statistics, probability, and hypothesis testing with applications to economic data and decision-making.
+Undergraduate course covering descriptive statistics, probability, sampling distributions, hypothesis testing, and regression, applied to economic data and decision-making. Sections run 25–31 students.
+
+I am redesigning the course materials and assignment structure around real-world case studies, so that inference is taught through actual economic questions rather than textbook exercises.
+
+I also designed and scored the course's program-assessment instrument: two hypothesis-testing problems spanning one- and two-sample inference under both known and unknown variance, scored against a three-point rubric and reported to the department for program review.
 
 ---
 

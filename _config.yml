@@ -1,11 +1,11 @@
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
 title: "Ethan Johnston"
-description: "Applied economics, causal inference, and quantitative analysis of labor and digital markets."
+description: "I build datasets that don't exist yet, then use them to answer economic questions."
 author:
   name: "Ethan Johnston"
   avatar: "/assets/images/headshot.JPG"
-  bio: "Quantitative economics researcher focused on labor markets, digital industries, causal inference, and computational data systems."
+  bio: "Applied economist. I construct novel datasets; scraped, parsed, and hand-coded, and use them to study market structure, pricing, and regulation."
   location: "Bloomington-Normal, IL"
   links:
     - label: "GitHub"

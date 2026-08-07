@@ -14,10 +14,10 @@ Parsed from 10,198 raw Wine-Searcher result pages covering 200 wines across all 
 Hand-coded shipping policies, UPS and FedEx alcohol tariffs, and state statutes from NCSL, joined to the offer data by merchant identity and destination state. Establishes the compliance chain from statute through carrier to consumer.
 
 ### Bookmaker price panel — 16 million rows
-Five-minute resolution prices from 30 venues around 16 prosecuted manipulation cases.
+Five-minute resolution prices from 30 venues around 16 prosecuted manipulation cases using OddsAPI.
 
 ### Multi-sport betting line panel — 2.5 million matches
-Opening and closing odds, timestamps, and bookmaker identifiers across 600+ leagues, collected via a JavaScript scraping pipeline.
+Opening and closing odds, timestamps, and bookmaker identifiers across 600+ leagues, collected via a JavaScript scraping pipeline from OddsPortal.
 
 ### CPS microdata — approximately 64 million person-records
 Extracted from fixed-width files spanning 1976–2026, with IND1990 codes mapped to CES supersectors for Bartik instrument construction.

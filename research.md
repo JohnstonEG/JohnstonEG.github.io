@@ -1,48 +1,57 @@
 ---
-title: "Research"
+title: "Research & Projects"
 layout: single
 author_profile: true
 permalink: /research/
 ---
 
-## Featured Project
+## Featured Projects
 
-### Synthetic Derivatives on Sports Betting Markets
+### State Shipping Bans and Wine Market Access
 
-*Pricing and backtesting derivative-like instruments on bookmaker implied probabilities using 2.52 million observations across 14 sports (2013–2024).*
+*How thirty-five states restrict direct wine shipping — and why the binding constraint turns out to be private carrier contracts rather than the statutes themselves.*
 
-This project develops a quantitative framework for pricing and backtesting synthetic derivative instruments written on sportsbook implied probability movements. Using bookmaker opening and closing odds across 943,000+ matches, I construct and evaluate options, spreads, variance swaps, and volatility-sensitive instruments on the line-movement process itself.
+Thirty-five states bar out-of-state retailers from shipping wine to consumers. The standard argument against those bans assumes they raise prices. They barely do. Using 251,706 retail offers parsed from 10,198 pages covering 200 wines across all 50 states, I find that roughly 80% of the price gap between prohibited and permitted states is reproduced by merchant presence alone — almost nobody charges more, but fewer sellers reach you.
 
-The project combines large-scale data engineering, econometric analysis, and quantitative finance methods. I estimate line-movement distributions using nonparametric KDE Monte Carlo methods alongside Bachelier and Student-t pricing frameworks, evaluate implied volatility structures, analyze post-PASPA market microstructure changes, and test derivative-augmented portfolio strategies using rolling-window backtesting and Monte Carlo risk simulation.
+The mechanism is a participation margin, and it is not enforced by the state. A prohibited state's only lever is license revocation, which is empty against a firm that holds no license there. The binding sanction is a private carrier refusing or destroying the package, and 54% of the merchant policies I hand-coded push that loss onto the buyer by contract through title-at-origin terms.
 
-A companion C# / .NET risk engine performs portfolio stress testing, VaR/CVaR analysis, volatility scenario modeling, and regime-switching simulations using calibrated market distributions exported from the Python research pipeline.
+Prohibition cuts the probability that a merchant serves a state by 13.7 points. Merchants who do serve a prohibited state list just as much — there is no assortment curation, only a participation decision.
 
-**Methods:** Kernel density estimation, Monte Carlo simulation, implied volatility modeling, portfolio optimization, volatility clustering analysis, rolling-window backtesting, regime analysis
+**Data construction:** 251,706 offers parsed from raw HTML; 65 merchant shipping policies and the governing UPS and FedEx tariffs hand-coded to establish the compliance chain end to end; state statutes coded from NCSL.
 
-**Tools:** Python, C#, .NET, pandas, NumPy, SciPy, statistical modeling, data pipelines
+**Legal context:** *Granholm v. Heald* (2005), *Tennessee Wine v. Thomas* (2019), and the live circuit split between *Lebamoff* (6th Cir.) and *B-21 Wines* (4th Cir.).
 
-[GitHub Repository](https://github.com/JohnstonEG/sports-betting-derivatives)
+**Methods:** Nested fixed effects, decomposition of price gaps into participation and pricing margins, linear probability models, counterfactual reweighting.
+
+---
+
+### Mentor–Mentee Matching System
+
+*A two-sided assignment mechanism built for a grant-funded departmental mentorship program.*
+
+I formulated mentor assignment as a capacitated bipartite matching problem and solved it exactly with the Hungarian algorithm, with a bottleneck-assignment variant that maximizes the quality of the worst pairing rather than the total. Running both makes the efficiency–equity trade-off visible instead of assumed.
+
+Preferences are elicited as partial rankings across research interests, career paths, and support needs, weighted by an inverse-frequency transform that down-weights items nearly everyone selects. The whole tool is a single self-contained page — participant data never leaves the operator's machine.
+
+I also designed the survey instruments, the mentor agreement, and the program's communication protocol.
+
+**Methods:** Hungarian algorithm, bottleneck assignment, bipartite maximum matching, inverse-frequency weighting.
 
 ---
 
 ## Research Papers
 
-### Displacement and Task Reallocation: Evidence from the PSID
-with Ali Yousuf (Illinois State University)  
-*Draft available upon request*
+### Detection and Dealer Response in Prosecuted Market Manipulation Cases
 
-This paper examines how displaced workers reallocate across task types following involuntary job loss. Using plant closures as a natural experiment in the Panel Study of Income Dynamics matched with O*NET task measures, we estimate the causal effect of displacement on task composition using a difference-in-differences framework with Callaway-Sant'Anna estimators, propensity score matching, and inverse probability weighting.
+*What do market makers do when they learn a contract has been manipulated?*
 
----
+I built a 16-million-row price panel at five-minute resolution across 30 venues around 16 prosecuted manipulation cases, then tested how bookmakers responded using a triple-difference design with fixed effects and exact tests suited to a 16-case sample.
 
-### Sports Betting Legalization Spillover Effects in International Betting Markets
-*Presented at the Midwest Economics Association (2026) and Illinois Economics Association (2025)*
+Firms withdrew the manipulated contract entirely rather than widening margins — the reverse of the documented response to insider trading in equities, where dealers price the risk instead of exiting.
 
-This paper investigates whether the repeal of PASPA generated spillover effects in international betting markets. Using a dynamic difference-in-differences framework on 73,652 bookmaker-sport-league-month observations across European sportsbooks from 2013 to 2024, I decompose bookmaker margins into multiple components and estimate how U.S. legalization affected pricing efficiency and market behavior abroad.
+**Methods:** Triple-difference with fixed effects, exact inference for small case counts, event-window construction.
 
 ---
-
-## Works in Progress
 
 ### Service Quality and Digital Piracy: Evidence from Denuvo DRM
 
@@ -50,18 +59,11 @@ This paper estimates the effect of anti-piracy DRM on piracy demand using a leav
 
 ---
 
-### Displacement and Task Composition: A Macroeconomic Perspective
-
-This project extends Jaimovich and Siu (2020) using a Bartik shift-share local projections IV framework on CPS data spanning 1976–2026. Using state-level industry employment shares mapped to CES supersectors, I examine the persistence and macroeconomic dynamics of task reallocation following labor market shocks.
-
----
 
 ## Research Interests
 
-- Labor economics
-- Industrial organization
+- Industrial organization and market structure
+- Regulation, enforcement, and compliance
 - Digital markets and platform economics
-- Market microstructure
-- Applied econometrics
-- Quantitative risk systems
-- Market design and information aggregation
+- Market design and matching
+- Applied econometrics and novel data construction

@@ -45,7 +45,7 @@ I also designed the survey instruments, the mentor agreement, and the program's 
 
 *What do market makers do when they learn a contract has been manipulated?*
 
-I built a 16-million-row price panel at five-minute resolution across 30 venues around 16 prosecuted manipulation cases, then tested how bookmakers responded using a triple-difference design with fixed effects and exact tests suited to a 16-case sample.
+I built a 16-million-row price panel at five-minute resolution across 30 venues around 15 prosecuted manipulation cases, then tested how bookmakers responded using a triple-difference design with fixed effects and exact tests suited to a 16-case sample.
 
 Firms withdrew the manipulated contract entirely rather than widening margins — the reverse of the documented response to insider trading in equities, where dealers price the risk instead of exiting.
 

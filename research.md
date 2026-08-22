@@ -8,20 +8,26 @@ permalink: /research/
 ## Featured Projects
 
 ### State Shipping Bans and Wine Market Access
-
-*How thirty-five states restrict direct wine shipping — and why the binding constraint turns out to be private carrier contracts rather than the statutes themselves.*
-
-Thirty-five states bar out-of-state retailers from shipping wine to consumers. The standard argument against those bans assumes they raise prices. They barely do. Using 251,706 retail offers parsed from 10,198 pages covering 200 wines across all 50 states, I find that roughly 80% of the price gap between prohibited and permitted states is reproduced by merchant presence alone — almost nobody charges more, but fewer sellers reach you.
-
-The mechanism is a participation margin, and it is not enforced by the state. A prohibited state's only lever is license revocation, which is empty against a firm that holds no license there. The binding sanction is a private carrier refusing or destroying the package, and 54% of the merchant policies I hand-coded push that loss onto the buyer by contract through title-at-origin terms.
-
-Prohibition cuts the probability that a merchant serves a state by 13.7 points. Merchants who do serve a prohibited state list just as much — there is no assortment curation, only a participation decision.
-
-**Data construction:** 251,706 offers parsed from raw HTML; 65 merchant shipping policies and the governing UPS and FedEx tariffs hand-coded to establish the compliance chain end to end; state statutes coded from NCSL.
-
-**Legal context:** *Granholm v. Heald* (2005), *Tennessee Wine v. Thomas* (2019), and the live circuit split between *Lebamoff* (6th Cir.) and *B-21 Wines* (4th Cir.).
-
-**Methods:** Nested fixed effects, decomposition of price gaps into participation and pricing margins, linear probability models, counterfactual reweighting.
+ 
+*Thirty-eight states close the interstate retailer channel. Consumers there pay more — but no retailer charges them more, and the constraint is applied through private carrier contracts rather than by the states directly.*
+ 
+Thirty-eight of the fifty-one U.S. jurisdictions bar out-of-state retailers from shipping wine to consumers. The figure is often reported as far smaller, because most sources describe the *winery* regime: winery direct shipping is lawful in 49 of 51 jurisdictions, out-of-state retailer shipping in 13. The two are separate systems, and a state's position in one predicts little about the other.
+ 
+Using 251,706 retail offers for 200 wine-vintages, collected across all 51 jurisdictions in mid-2026, I find that retailers post national prices: 89.5% of multi-state retailer–wine pairs carry an identical posted price in every state served, and within a wine, retailer identity accounts for 42.6% of price variance against 0.2% for the destination. Nobody is charging closed-state consumers more.
+ 
+They pay more anyway, because the price a consumer pays is the lowest one available rather than the average one posted. Where out-of-state retailers may ship, 36% more retailers reach a given wine in a given state, and the best available price falls accordingly. Conditional on that count, openness carries no further price advantage — the entire difference runs through participation. About nine-tenths of the price gap between open and closed states is composition rather than pricing, on two independent estimators.
+ 
+Prohibition cuts the probability that a retailer serves a state by 13.7 points. Retailers who do serve a closed state list just as many wines there as anywhere else — there is no assortment curation, only a participation decision.
+ 
+**Listing is not delivery.** Merchant domicile makes lawfulness observable offer by offer, and the closed-state menu turns out to be largely notional: in states permitting only their own retailers to ship, 3.6% of listed offers may lawfully reach the buyer; where retailer shipping is barred outright, none may. Where a lawful source exists it is usually a single seller — the median such case has exactly one, against nine where the channel is open — and the best available price there is 20% higher. Measured on listings alone the gap looks like two percent; measured on what can actually arrive, it is an order of magnitude larger.
+ 
+**Who enforces it.** A state's instrument against a retailer is the licence, exercised through inspection and revocation, and that is empty against a firm holding no licence there. What the state can reach is the carrier. UPS and FedEx each condition alcohol carriage on a signed agreement, restrict it to a published list of states, disclaim any duty to interpret the law, and reserve the right to destroy non-compliant shipments. The states remain the enforcers; the carriers are the instrument. This is gatekeeper liability in Kraakman's sense — a third party enlisted to police conduct the enforcer cannot reach directly — and because the compliance matrices are published documents, the enforcement boundary can be observed and its market consequences measured. Of 52 retailer policies I hand-coded, 28 pass title at origin, placing the residual loss on the buyer by contract.
+ 
+**Data construction:** 251,706 offers parsed from raw HTML, with multi-bottle lots and non-standard formats separated from single bottles by reading each offer's format badge; 65 merchant shipping policies and the governing UPS and FedEx tariffs and addenda hand-coded to establish the compliance chain end to end; retailer domicile matched to destination to determine lawfulness offer by offer.
+ 
+**Legal context:** *Granholm v. Heald* (2005) and *Tennessee Wine v. Thomas* (2019) left the retailer question open. Both circuits to reach it — *Lebamoff* (6th Cir. 2020) and *B-21 Wines* (4th Cir.) — sustained the restriction, differing in reasoning rather than outcome.
+ 
+**Methods:** Nested fixed effects; decomposition of the price gap into participation and pricing margins; a wine-level counterfactual price index; mediation of the best available price through retailer count; linear probability models; wine-clustered bootstrap.
 
 ---
 

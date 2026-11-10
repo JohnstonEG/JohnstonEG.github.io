@@ -33,14 +33,6 @@ I covered the financial and technology sectors for a student-managed portfolio o
 
 ---
 
-## Statistics Game
-
-*STATS GAME DESCRIPTION: one or two sentences on what it is, who it is for, and what it teaches.*
-
-[Play it here](STATS-GAME-LINK)
-
----
-
 ## Mentor and Mentee Matching System
 
 *Built for a grant-funded departmental mentorship program, Illinois State University, 2026*
@@ -50,3 +42,19 @@ Mentors said whether they could take one or two mentees; every mentee needed exa
 Preferences come from ranked survey responses, and the tool runs as a single self-contained page, so participant data never leaves the operator's computer. I also designed the survey instruments, the mentor agreement, and the program's communication protocol.
 
 **Methods:** Hungarian algorithm (capacitated assignment), bottleneck assignment.
+
+---
+
+## Educational Games
+
+### Space Pirate Statistics
+
+*Browser game built for ECO 138, Illinois State University, 2026*
+
+The player is an accountant kidnapped by space pirates, and the captain wants numbers before every raid: odds, intervals, and test results. Each job is worked at a desk of monitors holding the request, statistical tables, a calculator, and reference sheets. The player answers the quartermaster and then makes the call on whether to raid. Faster correct answers earn more plunder, finishing with 90% accuracy or better makes the player captain of the ship, and three fully missed jobs in a row send the player out the airlock.
+
+The jobs cover an introductory statistics course: the Empirical Rule, probability from two-way tables, counting, expected value and variance, binomial and normal distributions, the sampling distribution of the mean, confidence intervals and sample size, z and t tests, Type I and Type II errors, two-sample and two-proportion tests, and correlation. Every job is generated with fresh numbers, a worked solution follows a miss, and every answer key is checked against an independent Python verifier.
+
+It runs in any modern browser, with a guided tutorial and an untimed practice mode.
+
+[Play Space Pirate Statistics](https://johnstoneg.github.io/space-pirate-statistics/)

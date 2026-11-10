@@ -1,11 +1,11 @@
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
 title: "Ethan Johnston"
-description: "I build datasets that don't exist yet, then use them to answer economic questions."
+description: "Economist focused on financial analysis, risk, and careful data work."
 author:
   name: "Ethan Johnston"
   avatar: "/assets/images/headshot.JPG"
-  bio: "Applied economist. I construct novel datasets; scraped, parsed, and hand-coded, and use them to study market structure, pricing, and regulation."
+  bio: "MS Quantitative Economics, Illinois State University (December 2026). BBA Finance. Financial analysis, risk, and applied statistics; I teach statistics and build data tools."
   location: "Bloomington-Normal, IL"
   links:
     - label: "GitHub"
@@ -30,4 +30,3 @@ readme_index:
   enabled: false
 atom_feed:
   hide: true
-google_site_verification: "your-verification-code-here"

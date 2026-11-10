@@ -5,29 +5,14 @@ author_profile: true
 permalink: /
 ---
 
-I build datasets that don't exist yet, then use them to answer economic questions.
+I use quantitative tools to support financial judgment: reading a balance sheet, checking whether the numbers hold up, and explaining what they mean to the people who have to act on them.
 
-Most of my projects start because the data needed to settle a question isn't available.
-I parsed a quarter million wine retail offers to show that state shipping bans work
-through which merchants participate rather than what they charge, and that the binding
-enforcement comes from private carrier contracts, not the statutes. I built a
-16-million-row price panel to test how market makers react when a contract has been
-manipulated: they withdraw it entirely rather than widen margins, the reverse of how
-dealers handle insider trading in equities. Other work covers enforcement and demand in
-digital piracy, and how displaced workers reallocate across task types.
+My background starts in finance. I earned a BBA in Finance from Stephen F. Austin State University, summa cum laude, with minors in economics and mathematics. There I covered the financial and technology sectors for a student-managed portfolio of about $900,000 and presented fund performance to the university Board of Regents. In a bank management simulation, I led a five-person executive team as president and CEO through a recession and recovery, making the credit, funding, and capital decisions a bank actually faces.
 
-I also like designing systems meant to outlast a single project. I built the assignment
-mechanism for a departmental mentorship program, a capacitated bipartite matching
-problem solved with the Hungarian algorithm, alongside a second objective that protects
-the worst pairing rather than the total, so the trade-off is visible instead of assumed. 
-This tool aids in decision-making. 
+I am now completing an MS in Quantitative Economics at Illinois State University, finishing in December 2026. I teach two sections of undergraduate statistics as instructor of record, and I built the assignment system for a departmental mentorship program.
 
-I work mostly in Python, R, and Stata, using difference-in-differences, instrumental
-variables, event studies, and local projections — and in C# when a project needs a real
-engine behind it.
+The habit that runs through all of it is checking the data before trusting the result. In one research project, an error in 1.29% of the records was driving 62% of the estimated effect. I found it, rebuilt the sample, and reported the smaller, correct number. Building and cleaning datasets is still something I do for fun; the Data page lists a few.
 
-I am a Master's student in Quantitative Economics at Illinois State University,
-finishing in December 2026. I am looking for work in economic consulting, applied
-research, and quantitative analysis.
+I work in Excel, Python, R, and Stata. I am looking for work in financial analysis and bank risk management.
 
-Outside of research, I write poetry.
+Outside of work, I write poetry.
